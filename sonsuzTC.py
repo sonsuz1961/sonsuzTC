@@ -11,7 +11,7 @@ def random_rgb_color():
 
 # Banner'ı yazdırma
 def print_banner():
-    banner_text = "SONSUZ"
+    banner_text = "SONSUZ TC"
     ascii_banner = pyfiglet.figlet_format(banner_text, font="slant")  # "slant" fontu kullan
     color = random_rgb_color()  # RGB karışık renk seç
     print(f"{color}{ascii_banner}")
